@@ -1,0 +1,22 @@
+smtp 서버???
+
+SMTP (Simple Mail Transfer Protocol) : 메일을 보낼 때 사용하는 프로토콜
+SMTP 서버는 SMTP 프로토콜을 사용해 이메일을 전송하고 수신할 수 있는 메일 서버
+
+포트번호???
+
+465번을 이용.
+보안설정을 TLS로하면 587이용.
+
+ssl???
+
+SSL과 TLS는 두 컴퓨터 사이의 연결을 암호화하는 표준 기술
+SSL 버전이 올라가 TLS가 되었다
+TLS는 SSL의 후손격
+
+
+disposition???
+
+http header는 클라이언트와 서버가 요청 또는 응답으로 부가적인 정보를 전송하는것
+그 안에 담겨져있는 content-disposition
+Content-disposition >> 응답 메세지를 브라우저가 어떻게 처리할지 정한다. 주로 다운로드에 사용
